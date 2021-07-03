@@ -31,5 +31,8 @@ Create setup and project :
  
  $ npx wdio config
  
+  ![WDIO configuration](https://user-images.githubusercontent.com/86867719/124349126-48427d00-dc0b-11eb-90b7-e06f11413bd3.png)
+
+
 5. To run the feature file in ../bddsample/ path run below command
  $ npx wdio run wdio.conf.ts
