@@ -35,4 +35,5 @@ Create setup and project :
 
 
 5. To run the feature file in ../bddsample/ path run below command
- $ npx wdio run wdio.conf.ts
+
+$ npx wdio run wdio.conf.ts
