@@ -17,6 +17,8 @@ Create setup and project :
  $ npm init
  when below question is asked keep input as yes
  Is this OK? (yes) yes
+ ![npm init](https://user-images.githubusercontent.com/86867719/124349053-e255f580-dc0a-11eb-8780-fda7cb647953.png)
+
  now you will see package.json inside bddsample project.
 
 4. Go to https://webdriver.io/docs/gettingstarted
