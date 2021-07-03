@@ -7,15 +7,20 @@ Pre-requisite :
 2. NodeJS - https://nodejs.org/en/download/
 
 verify the version of node and npm
+
 $ node -v
+
 $ npm -v
 
 Create setup and project :
 1. create folder e.g. bddsample
 2. go to project folder e.g. cd /var/bddtest/bddsample/
 3. Initialise the project as Nodejs project , run the command in ../bddsample/ path
+
  $ npm init
- when below question is asked keep input as yes
+ 
+ when below question is asked keep input as yes:
+ 
  Is this OK? (yes) yes
  
  ![npm init](https://user-images.githubusercontent.com/86867719/124349053-e255f580-dc0a-11eb-8780-fda7cb647953.png)
