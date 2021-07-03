@@ -1,0 +1,32 @@
+{
+  "name": "bddsample",
+  "version": "1.0.0",
+  "description": "samplebdd",
+  "main": "index.js",
+  "dependencies": {
+    "chromedriver": "^91.0.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5",
+    "wdio-chromedriver-service": "^7.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyotsna-patilbdd/bddsample.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "typescript",
+    "cucumber",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyotsna-patilbdd/bddsample/issues"
+  },
+  "homepage": "https://github.com/jyotsna-patilbdd/bddsample#readme"
+}
