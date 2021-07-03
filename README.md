@@ -7,24 +7,26 @@ Pre-requisite :
 2. NodeJS - https://nodejs.org/en/download/
 
 verify the version of node and npm
-node -v
-npm -v
+$ node -v
+$ npm -v
 
 Create setup and project :
 1. create folder e.g. bddsample
 2. go to project folder e.g. cd /var/bddtest/bddsample/
-3. Initialise the project as Nodejs project , run the command 
-npm init
-
-Is this OK? (yes) yes
-
-you will see package.json inside bddsample project
+3. Initialise the project as Nodejs project , run the command in ../bddsample/ path
+ $ npm init
+ when below question is asked keep input as yes
+ Is this OK? (yes) yes
+ now you will see package.json inside bddsample project.
 
 4. Go to https://webdriver.io/docs/gettingstarted
- //Use npm or Yarn to install the WebdriverIO test runner in your Node.js project.
- npm install @wdio/cli
+ to use  npm or Yarn to install the WebdriverIO test runner in your Node.js project.
  
- Setup:WDIO Configuration Helper
- npx wdio config
+ $ npm install @wdio/cli
  
-
+ To Setup:WDIO Configuration Helper
+ 
+ $ npx wdio config
+ 
+5. To run the feature file in ../bddsample/ path run below command
+ $ npx wdio run wdio.conf.ts
